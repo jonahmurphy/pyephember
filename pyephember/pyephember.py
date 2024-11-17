@@ -414,8 +414,6 @@ class EphEmber:
                 "Error getting details from home: no home data found")
 
         self._home_details = home_details['data']
-        print("home details")
-        print(home_details)
         return home_details["data"]
 
     def get_home(self, gateway_id=None):
